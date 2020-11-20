@@ -1,0 +1,416 @@
+
+.head-dis{
+    height: 80px;
+    background-color: #fff;
+    color: #000;
+}
+.ani {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
+.ani p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-left 80s linear infinite;
+ -webkit-animation: scroll-left 80s linear infinite;
+ animation: scroll-left 80s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 5px;
+  text-align: center;
+  text-decoration: none;
+  height: 5px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #ccc;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #ccc;
+  color: white;
+}
+.fa-linkedin {
+  background: #ccc;
+  color: white;
+}
+.fa-youtube {
+  background: #ccc;
+  color: white;
+}
+.fa-instagram {
+  background: #ccc;
+  color: white;
+}
+.fa-google-plus {
+  background: #ccc;
+  color: white;
+}
+  .myinfo{
+    height: 50px;
+    background-color: #ccc;
+  }
+  .icon{
+    margin-left: 920px;
+  }
+		@media (width:360px){
+			.icon{
+    margin-left: 10px;
+				margin-top: 4px;
+				padding-left: 35px;
+  }
+		}
+			@media (width:600px){
+			.icon{
+    margin-left: 10px;
+				margin-top: 4px;
+				padding-left: 150px;
+  }
+		}
+			@media (width:800px){
+			.icon{
+    margin-left: 10px;
+				margin-top: 4px;
+				padding-left: 250px;
+  }
+		}
+			@media (width:384px){
+			.icon{
+    margin-left: 10px;
+				margin-top: 4px;
+				padding-left: 40px;
+  }
+		}
+			@media (width:640px){
+			.icon{
+    margin-left: 10px;
+				margin-top: 4px;
+				padding-left: 170px;
+  }
+		}
+		@media (width:1440px){
+			.icon{
+    margin-left: 930px;
+				margin-top: 4px;
+				padding-left: 170px;
+  }
+		}
+		@media (width:412px){
+			.icon{
+    margin-left: 30px;
+				margin-top: 4px;
+				padding-left:50px;
+  }
+		}
+		@media (width:320px){
+			.icon{
+    margin-left: 20px;
+				margin-top: 4px;
+				padding-left:5px;
+  }
+		}
+		@media (width:480px){
+			.icon{
+    margin-left: 20px;
+				margin-top: 4px;
+				padding-left:100px;
+  }
+		}
+		@media (width:768px){
+			.icon{
+    margin-left: 20px;
+				margin-top: 4px;
+				padding-left:230px;
+  }
+		}
+		@media (width:240px){
+			.icon{
+    margin-left: 1px;
+				margin-top: 4px;
+				padding-left:30px;
+				width: 100%;
+  }
+		.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 5px;
+  text-align: center;
+  text-decoration: none;
+  height: 5px;
+}
+		}
+			@media (width:411px){
+			.icon{
+    margin-left: 20px;
+				margin-top: 4px;
+				padding-left:60px;
+  }
+		}
+		@media (width:375px){
+			.icon{
+    margin-left: 20px;
+				margin-top: 4px;
+				padding-left:35px;
+  }
+		}
+		@media (width:414px){
+			.icon{
+    margin-left: 20px;
+				margin-top: 4px;
+				padding-left:60px;
+  }
+		}
+		@media (width:768px){
+			.icon{
+    margin-left: 20px;
+				margin-top: 4px;
+				padding-left:450px;
+  }
+		}
+			@media (width:1024px){
+			.icon{
+    margin-left: 20px;
+				margin-top: 4px;
+				padding-left:650px;
+  }
+		}
+		@media (width:540px){
+			.icon{
+    margin-left: 20px;
+				margin-top: 4px;
+				padding-left:110px;
+  }
+		}
+		@media (width:280px){
+			.icon{
+    margin-left: 20px;
+				margin-top: 4px;
+				padding-left:40px;
+  }
+		.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 5px;
+  text-align: center;
+  text-decoration: none;
+  height: 5px;
+}
+		}
+  /*@media only screen and (max-width:768px){
+    .icon{
+        margin:0px;
+    }
+  }*/
+  /*.contact{
+    width: 20%;
+    height: 0px;
+				border: 2px solid red;
+  }*/
+ .test{
+    background-color: #ffff33;
+    height: 137px;
+  }
+.navbar.navbar-default {
+    background-color: #ffff33;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-left: 120px;
+    margin-top: 35px;
+}
+#mynav{
+	padding-left: 700px;
+}
+@media (width:360px){
+.navbar.navbar-default {
+    background-color: #ffff33;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+}
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/*.play{
+    border:2px solid grey;
+    /*height: 400px;*/
+   /* margin-top: 30px;
+    width: 40%;*/
+    
+/*}
+ @media only screen and (max-width:768px){
+    .play{
+        height: 0px;
+    }*/
+
+.bord{
+    background-color:ffffcc;
+    border:2px solid yellow;
+    margin-top: 20px;
+    padding-top: 13px;
+    height: 500px;
+}
+.ed{
+    margin-left:25px;
+}
+.output{
+    border: 2px solid yellow;
+    width: 80%;
+    height: 480px;
+}
+.float{
+    float:left;
+    width:50%;
+}
+/* @media only screen and (max-width:768px){
+    .float{
+        float: none;
+        width: 60%;
+        padding-top:  500px;
+        
+    }
+ }*/
+.pic{
+    width: 60%;
+    /*border: 2px solid black;*/
+    margin-top: 25px;
+}
+.carousel .item {
+  height: 400px;
+}
+
+.item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+li:active { 
+    width: 80% !imporant;
+}
+.outer-image-container { 
+    max-width: 500px;
+}
+.fix{
+	border:2px solid yellow;
+	height:480px;
+	border-radius: 20px;
+}
+.btn-fix{
+	margin-top:15px;
+}
+.label-fix{
+	margin-top: 15px;
+}
+.img-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.img-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.img-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .img-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/*collapse button*/
+#demo {
+	   width: 0px;
+    display: inline-block;
+    white-space: nowrap; 
+}
+#demo.in {
+    width: 220px;
+}
+#demo {
+    -webkit-transition: width 2s ease;
+    -moz-transition: width 2s ease;
+    -o-transition: width 2s ease;
+    transition: width 2s ease;
+
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    background: yellow;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 30px;
+}
+.sign{
+	width: 70%;
+	height: 300px;
+	margin: 10%;
+	border-radius: 20px;
+}
+.btn-margin{
+	margin-right: 10px;
+}
+.foot{
+	background: #ffff33;
+	padding-top: 50px;
+	height: 300px;
+}
